@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.avatar {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 5px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.username {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.bio {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.follow {
+  display: flex;
+  gap: 10px;
+}
