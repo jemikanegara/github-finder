@@ -17,4 +17,9 @@ a:hover {
 
 * {
   box-sizing: border-box;
+  word-break: break-all;
+}
+
+main {
+  padding: 10px;
 }

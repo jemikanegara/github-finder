@@ -26,7 +26,7 @@ function Search({ path, defaultValues } : SearchProps) {
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
       <input className={styles.input} type='text' name='q' defaultValue={defaultValues?.q} />
-      <button className={styles.submit} type='submit'>Search User</button>
+      <button className={styles.submit} type='submit'>Search</button>
     </form>
   )
 }
