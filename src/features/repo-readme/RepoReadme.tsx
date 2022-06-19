@@ -29,8 +29,7 @@ function RepoReadme({ username, reponame }: { username: string; reponame: string
   return (
     <div className={styles.item}>
       <div>
-        {readme.name}
-        <RepoReadmeRenderer content={readme.decoded} />
+        {readme.decoded && <RepoReadmeRenderer content={readme.decoded} />}
       </div>
     </div>
   )
